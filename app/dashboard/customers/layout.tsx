@@ -1,8 +1,5 @@
-interface CustomersPageProps {
-    children: void
-}
 
-export default function Layout({ children }: CustomersPageProps) {
+export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <>
             <p>Layout Berbeda</p>
